@@ -36,7 +36,7 @@ execute "rebuild-daemon" do
 end
 
 execute "install-daemon" do
-  cwd '/opt/local/gopath/src/github.com/bketelsen/skynet/cmd/skydaemon'
+  cwd '/opt/local/gopath/src/github.com/musicglue/skynet/cmd/skydaemon'
 
   command %Q{
     go install  

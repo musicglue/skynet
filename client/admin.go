@@ -1,8 +1,8 @@
 package client
 
 import (
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/rpc/bsonrpc"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/rpc/bsonrpc"
 	"net"
 )
 

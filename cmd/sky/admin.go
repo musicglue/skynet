@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/client"
-	"github.com/bketelsen/skynet/daemon"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/client"
+	"github.com/musicglue/skynet/daemon"
 	"github.com/kballard/go-shellquote"
 	"os"
 	"strings"

@@ -3,8 +3,8 @@ package client
 import (
 	"fmt"
 	"github.com/musicglue/doozer"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/pools"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/pools"
 	"labix.org/v2/mgo/bson"
 	"time"
 )

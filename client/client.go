@@ -3,9 +3,9 @@ package client
 import (
 	"errors"
 	"fmt"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/pools"
-	"github.com/bketelsen/skynet/rpc/bsonrpc"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/pools"
+	"github.com/musicglue/skynet/rpc/bsonrpc"
 	"net"
 	"net/rpc"
 	"os"

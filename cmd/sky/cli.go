@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/bketelsen/skynet"
+	"github.com/musicglue/skynet"
 	"github.com/sbinet/liner"
 	"strconv"
 	"strings"

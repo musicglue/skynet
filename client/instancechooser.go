@@ -2,7 +2,7 @@ package client
 
 import (
 	"container/heap"
-	"github.com/bketelsen/skynet"
+	"github.com/musicglue/skynet"
 )
 
 type InstanceComparator func(c *Client, i1, i2 *skynet.ServiceInfo) (i1IsLess bool)

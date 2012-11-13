@@ -3,9 +3,9 @@ package main
 import (
 	"bufio"
 	"errors"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/daemon"
-	"github.com/bketelsen/skynet/service"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/daemon"
+	"github.com/musicglue/skynet/service"
 	"io"
 	//"log"
 	"os"

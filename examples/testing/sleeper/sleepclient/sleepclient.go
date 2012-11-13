@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/client"
-	"github.com/bketelsen/skynet/examples/testing/sleeper"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/client"
+	"github.com/musicglue/skynet/examples/testing/sleeper"
 	"os"
 	"time"
 )

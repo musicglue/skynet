@@ -8,8 +8,8 @@
 package main
 
 import (
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/service"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/service"
 	"log"
 	"os"
 	"strings"

@@ -1,8 +1,8 @@
 package daemon
 
 import (
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/client"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/client"
 )
 
 type Client struct {

@@ -3,7 +3,7 @@ package service
 import (
 	"errors"
 	"fmt"
-	"github.com/bketelsen/skynet"
+	"github.com/musicglue/skynet"
 	"labix.org/v2/mgo/bson"
 	"reflect"
 	"sync/atomic"

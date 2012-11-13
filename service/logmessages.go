@@ -2,7 +2,7 @@ package service
 
 import (
 	"fmt"
-	"github.com/bketelsen/skynet"
+	"github.com/musicglue/skynet"
 	"syscall"
 )
 

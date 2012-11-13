@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/bketelsen/skynet"
+	"github.com/musicglue/skynet"
 )
 
 type NotificationChan chan InstanceListenerNotification

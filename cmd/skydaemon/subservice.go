@@ -3,8 +3,8 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/client"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/client"
 	"github.com/kballard/go-shellquote"
 	"go/build"
 	"os"

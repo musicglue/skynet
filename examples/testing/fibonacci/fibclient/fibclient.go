@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/bketelsen/skynet"
-	"github.com/bketelsen/skynet/client"
-	"github.com/bketelsen/skynet/examples/testing/fibonacci"
+	"github.com/musicglue/skynet"
+	"github.com/musicglue/skynet/client"
+	"github.com/musicglue/skynet/examples/testing/fibonacci"
 	"strconv"
 )
 
