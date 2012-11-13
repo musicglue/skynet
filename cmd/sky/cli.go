@@ -103,7 +103,7 @@ func InteractiveShell() {
 
 	doozer := Doozer(config.DoozerConfig)
 
-	fmt.Println("Skynet Interactive Shell")
+	fmt.Println("Welcome to Skynet...")
 
 	query = &skynet.Query{
 		DoozerConn: doozer,
