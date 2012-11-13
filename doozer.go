@@ -3,7 +3,7 @@ package skynet
 import (
 	"bytes"
 	"fmt"
-	"github.com/4ad/doozer"
+	"github.com/musicglue/doozer"
 	"os"
 	"path"
 	"sync"

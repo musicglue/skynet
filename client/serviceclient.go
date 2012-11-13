@@ -2,7 +2,7 @@ package client
 
 import (
 	"fmt"
-	"github.com/4ad/doozer"
+	"github.com/musicglue/doozer"
 	"github.com/bketelsen/skynet"
 	"github.com/bketelsen/skynet/pools"
 	"labix.org/v2/mgo/bson"

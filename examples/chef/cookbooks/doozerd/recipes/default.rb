@@ -24,14 +24,14 @@ end
 
 execute "download-doozerd" do
   command %Q{
-    go get code.google.com/p/goprotobuf/proto && go get github.com/kr/pretty && go get github.com/4ad/doozer && go get github.com/4ad/doozerd
+    go get code.google.com/p/goprotobuf/proto && go get github.com/kr/pretty && go get github.com/musicglue/doozer && go get github.com/musicglue/doozerd
   }
 
-  not_if "ls $GOPATH/src/github.com/4ad/doozerd"
+  not_if "ls $GOPATH/src/github.com/musicglue/doozerd"
 end
 
 execute "install-doozer" do
-  cwd '/opt/local/gopath/src/github.com/4ad/doozer/cmd/doozer'
+  cwd '/opt/local/gopath/src/github.com/musicglue/doozer/cmd/doozer'
 
   command %Q{
     go install  
@@ -39,7 +39,7 @@ execute "install-doozer" do
 end
 
 execute "install-doozerd" do
-  cwd '/opt/local/gopath/src/github.com/4ad/doozerd'
+  cwd '/opt/local/gopath/src/github.com/musicglue/doozerd'
 
   command %Q{
     go install  
